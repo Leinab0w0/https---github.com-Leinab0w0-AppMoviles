@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>TowelRegister</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Encabezado -->
+<header id="site-header" class="fixed-top">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Banner -->
+<section class="hero-banner" id="home" style="background-image: url('assets/imgFoto.png'); background-size: cover;">
+  <div class="banner-info">
+    <img src="assets/logo.png" alt="Logo Tower Register" class="hero-logo">
+    <h1>Bienvenido a TowelRegister</h1>
+    <p>Optimiza tu gestión en DUOC UC con tecnología avanzada.</p>
+    <a href="assets/APK/TowerRegister.apk" download class="btn-style" style="text-decoration: none; color: white;">
+      Descargar App
+    </a>
+  </div>
+</section>
+
+<!-- Sobre Nosotros -->
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="section-title">Sobre Nosotros</h2>
+    <div class="row mt-4">
+      <div class="col-lg-12">
+        <h3>Nuestra Historia</h3>
+        <p>
+          TowelRegister nació con el objetivo de mejorar la gestión de asistencia en DUOC UC, utilizando tecnología avanzada para simplificar y optimizar los procesos de registro y control de asistencia en el campus.
+        </p>
+        <p>
+          Con una interfaz intuitiva y fácil de usar, nuestra plataforma permite a docentes, alumnos y personal administrativo registrar y consultar la asistencia de manera rápida y eficiente, eliminando los problemas de los métodos tradicionales.
+        </p>
+        <p>
+          Además de su funcionalidad en tiempo real, TowelRegister está diseñado para ser una herramienta versátil que se adapta a las necesidades del entorno educativo, mejorando la comunicación y el flujo de información entre los miembros de la comunidad universitaria.
+        </p>
+        <p>
+          Nuestra misión es contribuir a un mejor ambiente académico a través de la tecnología, optimizando la gestión de asistencia y proporcionando una herramienta accesible para todos.
+        </p>
+        <ul class="features-list">
+          <li>Plataforma segura y moderna</li>
+          <li>Integración con notificaciones en tiempo real</li>
+          <li>Accesibilidad desde cualquier dispositivo</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row text-center mt-5">
+      <div class="col-lg-4">
+        <img src="assets/app.png" alt="Logo TowelRegister" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-lg-4">
+        <img src="assets/app2.png" alt="Logo TowelRegister" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-lg-4">
+        <img src="assets/app.png" alt="Logo TowelRegister" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Contacto</h2>
+    <p class="text-center">Estamos aquí para ayudarte. Contáctanos o visítanos en nuestras oficinas.</p>
+    <div class="contact-info">
+      <h4>Oficina Principal</h4>
+      <p>Av. Fernandiño 123, Melipilla, Chile</p>
+      <p>Teléfono: <a href="tel:+56912345678">+56 9 1234 5678</a></p>
+      <p>Email: <a href="mailto:info@towelregister.com">info@towelregister.com</a></p>
+      <ul class="social">
+        <li><a href="#facebook">Facebook</a></li>
+        <li><a href="#linkedin">LinkedIn</a></li>
+        <li><a href="#twitter">Twitter</a></li>
+      </ul>
+    </div>
+    <div class="contact-form-container">
+      <form action="https://formspree.io/f/mnnqvqkk" method="POST" class="contact-form">
+        <div class="form-group">
+          <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" placeholder="Correo" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-style mt-3">Enviar</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Botón para ir arriba -->
+<button onclick="topFunction()" id="movetop" title="Ir arriba">
+  ↑
+</button>
+
+<script>
+  window.onscroll = function () {
+    document.getElementById("movetop").style.display = document.documentElement.scrollTop > 20 ? "block" : "none";
+  };
+
+  function topFunction() {
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+</body>
+</html>
